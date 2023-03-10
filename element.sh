@@ -37,6 +37,7 @@ else if [[ $1 == [A-Z]* ]]
     fi
 else if [[ $1 == ^[A-Z] ]]
 then
+#gérer le cas de réponse avec le nom de l'élément
 echo "name"
 fi
 fi
