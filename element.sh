@@ -35,7 +35,7 @@ else if [[ $1 == [A-Z]* ]]
       else
       echo "The element with atomic number $ATOMIC_NUMBER is $NAME ($1). It's a $TYPE, with a mass of $MASS amu. $NAME has a melting point of $MELTING_POINT celsius and a boiling point of $BOILING_POINT celsius."
     fi
-else if [[ $1 == ^[A-Z] ]]
+else if [[ $1 == [A-Z]* ]]
 then
 #gérer le cas de réponse avec le nom de l'élément
 echo "name"
